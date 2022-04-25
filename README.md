@@ -94,9 +94,9 @@ P2：文本输入模式、语音输入模式可切换，在语音模式下长按
 
 P3, P4：在宿舍路由器下，正常接收和发送，录音可播放
 
-<img src="https://s2.loli.net/2022/04/25/5UchwxlrkfGz2ne.jpg" alt="Screenshot_20220405_163030_clqwq.press.push_to_talk" style=" float:left; height:1000px; float:left;" /><img src="https://s2.loli.net/2022/04/25/gK85HtIqvaYXQ6E.jpg" alt="img" style="float:left; height:1000px;float:left;" />
+<img src="https://s2.loli.net/2022/04/25/5UchwxlrkfGz2ne.jpg" alt="Screenshot_20220405_163030_clqwq.press.push_to_talk" style=" float:left; height:800px; float:left;" /><img src="https://s2.loli.net/2022/04/25/gK85HtIqvaYXQ6E.jpg" alt="img" style="float:left; height:800px;float:left;" />
 
-<img src="https://s2.loli.net/2022/04/25/n3yQLjx5W7hRbGm.jpg" style="height:1000px;" /><img src="https://s2.loli.net/2022/04/25/4z2aWRjH9xZBc1r.jpg" alt="img" style="height:1000px;" />
+<img src="https://s2.loli.net/2022/04/25/n3yQLjx5W7hRbGm.jpg" style="height:800px;" /><img src="https://s2.loli.net/2022/04/25/4z2aWRjH9xZBc1r.jpg" alt="img" style="height:800px;" />
 
 ## 3 分析
 
