@@ -94,37 +94,9 @@ P2：文本输入模式、语音输入模式可切换，在语音模式下长按
 
 P3, P4：在宿舍路由器下，正常接收和发送，录音可播放
 
-<img src="C:\Users\PC\Documents\Tencent Files\1966069940\FileRecv\Screenshot_20220405_163030_clqwq.press.push_to_talk.jpg" alt="Screenshot_20220405_163030_clqwq.press.push_to_talk" style="zoom:30%; float:left; width:1000px" /><img src="file:///C:\Users\PC\Documents\Tencent Files\1966069940\Image\C2C\74E2D14ADFE419D8A7CBF4879E2D99AC.jpg" alt="img" style="zoom:30%;float:left;margin-left:200px; width:1000px" />
+<img src="https://s2.loli.net/2022/04/25/5UchwxlrkfGz2ne.jpg" alt="Screenshot_20220405_163030_clqwq.press.push_to_talk" style="width:30%; float:left; width:1000px" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://s2.loli.net/2022/04/25/gK85HtIqvaYXQ6E.jpg" alt="img" style="width:30%;float:left;margin-left:200px; width:1000px" />
 
 
 
