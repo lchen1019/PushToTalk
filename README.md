@@ -1,4 +1,4 @@
-# push to talk 支持语音版
+# push to talk 支持语音、文字聊天
 
 ## 1. 代码实现
 
@@ -96,11 +96,7 @@ P3, P4：在宿舍路由器下，正常接收和发送，录音可播放
 
 <img src="https://s2.loli.net/2022/04/25/5UchwxlrkfGz2ne.jpg" alt="Screenshot_20220405_163030_clqwq.press.push_to_talk" style=" float:left; height:1000px; float:left;" /><img src="https://s2.loli.net/2022/04/25/gK85HtIqvaYXQ6E.jpg" alt="img" style="float:left;margin-left:200px; height:1000px;float:left;" />
 
-
-
-
-
-<img src="C:\Users\PC\Documents\Tencent Files\1966069940\FileRecv\Screenshot_20220405_160248_clqwq.press.push_to_talk.jpg.jpg" alt="Screenshot_20220405_160248_clqwq.press.push_to_talk.jpg" style="zoom:30%; float:left;width:1000px" /><img src="file:///C:\Users\PC\Documents\Tencent Files\1966069940\Image\C2C\5B409583E2A5B7F5B9ECDF4F2EF30D61.jpg" alt="img" style="zoom:30%;margin-left:200px" />
+<img src="https://s2.loli.net/2022/04/25/n3yQLjx5W7hRbGm.jpg" alt="Screenshot_20220405_160248_clqwq.press.push_to_talk.jpg" style="height:1000px; float:left;width:1000px" /><img src="https://s2.loli.net/2022/04/25/4z2aWRjH9xZBc1r.jpg" alt="img" style="height:1000px;margin-left:200px" />
 
 ## 3 分析
 
