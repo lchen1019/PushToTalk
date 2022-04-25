@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">对讲机</string>
+    <string name="inputTag">请输入</string>
+    <string name="check">确认</string>
+    <string name="ip">224.5.1.6</string>
+    <string name="port">22123</string>
+    <string name="name">陈林</string>
+</resources>

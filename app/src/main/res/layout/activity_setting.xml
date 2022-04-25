@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/toolbarCol">
+            <!--more-->
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+            <!--title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="ip"/>
+
+                <EditText
+                    android:id="@+id/ip"
+                    android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"
+                    android:background="@drawable/custom_edittext_background"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="port"/>
+
+                <EditText
+                    android:id="@+id/port"
+                    android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"
+                    android:background="@drawable/custom_edittext_background"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="name"/>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"
+                    android:background="@drawable/custom_edittext_background"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/check"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

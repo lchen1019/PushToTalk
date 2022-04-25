@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <!--toolbar-->
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/toolbarCol">
+            <!--title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_settings_24" />
+
+            <ImageView
+                android:id="@+id/changer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_keyboard_voice_24"
+                android:layout_marginEnd="20sp"
+                android:layout_gravity="right"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+
+    <!--输入部分-->
+    <RelativeLayout
+        android:id="@+id/input_box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20sp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/voiceBox"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/voice"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:background="@drawable/ic_baseline_keyboard_voice_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/textBox"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/input"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="@string/inputTag"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:background="@drawable/ic_baseline_send_24" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--显示发送内容-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/input_box"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/cancelDialog"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="13">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
